@@ -4,9 +4,6 @@ def map(array)
   while counter < array.length do
     new.push(yield(array[counter]))
     counter += 1
-
-
-
   end
-
+  new
 end
