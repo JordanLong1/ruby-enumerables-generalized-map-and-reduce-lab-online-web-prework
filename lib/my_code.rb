@@ -8,10 +8,10 @@ def map(array)
   new
 end
 
-def reduce(array)
+def reduce(array, sv=nil)
 total = starting point
 counter = 0
 while counter < array.length do
-  
+
 end
 end
