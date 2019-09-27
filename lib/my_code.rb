@@ -9,9 +9,14 @@ def map(array)
 end
 
 def reduce(array, sv=nil)
-total = starting point
-counter = 0
-while counter < array.length do
+  if sv
+    sum = sv
+    counter = 0 
+  else
+    sum = array[0]
+    counter = 1
+  end
 
-end
+  while counter < array.length 
+    sum = yield(num1, array[counter])
 end
