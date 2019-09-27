@@ -3,6 +3,7 @@ def map(array)
   counter = 0
   while counter < array.length do
     new.push(yield(array[counter]))
+    counter += 1
 
 
 
