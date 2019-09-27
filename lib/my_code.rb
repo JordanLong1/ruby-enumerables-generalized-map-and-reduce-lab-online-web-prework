@@ -7,5 +7,5 @@ def my_own_map(array)
     counter += 1
   end
   final_array
-    
+
   end
