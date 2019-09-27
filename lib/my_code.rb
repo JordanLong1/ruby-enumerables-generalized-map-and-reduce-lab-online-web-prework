@@ -1,4 +1,4 @@
-def my_own_map
+def map
   [].map do|num|
     num * -1
   end
